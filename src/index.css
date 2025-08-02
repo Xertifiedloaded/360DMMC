@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 /* AI Technology Company Design System */
-
+html {
+  scroll-behavior: smooth;
+}
 @layer base {
   :root {
     /* Core Brand Colors - Deep Tech Aesthetic */
