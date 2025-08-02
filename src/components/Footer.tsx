@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import {  Mail, Phone, MapPin, Linkedin, Twitter, Github } from "lucide-react";
-import Logo from "../assets/360.png";
+import Logo from "../assets/footer-logo.png";
 const Footer = () => {
   return (
     <footer className="bg-card border-t border-border/50">
@@ -75,7 +75,7 @@ const Footer = () => {
 
         <div className="border-t border-border/50 mt-8 pt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} AI Transform. All rights reserved.
+            © {new Date().getFullYear()} 360 Digital Media Marketing Company | All Rights Reserved.
           </p>
         </div>
       </div>
