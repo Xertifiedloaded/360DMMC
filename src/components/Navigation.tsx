@@ -11,12 +11,12 @@ const Navigation = () => {
 
   const navItems = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
+    { name: "Who We Are", href: "/about" },
+    { name: "What We Do", href: "/services" },
     { name: "Case Studies", href: "/case-studies" },
     { name: "Team", href: "/team" },
     { name: "Blog", href: "/blog" },
-    { name: "Contact", href: "/contact" },
+    { name: "Contact Us", href: "/contact" },
   ];
 
   const isActive = (href: string) => location.pathname === href;
@@ -46,7 +46,7 @@ const Navigation = () => {
               >
                 <Link
                   to={item.href}
-                  className={`text-sm font-medium transition-colors duration-200 relative group ${
+                  className={`text-sm font-medium line-clamp-1 transition-colors duration-200 relative group ${
                     isActive(item.href)
                       ? "text-primary"
                       : "text-muted-foreground hover:text-foreground"
@@ -68,19 +68,7 @@ const Navigation = () => {
                 </Link>
               </motion.div>
             ))}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.8 }}
-            >
-              <Button 
-                variant="default" 
-                size="sm" 
-                className="ml-4 hover:scale-105 transition-transform duration-200"
-              >
-                Get Started
-              </Button>
-            </motion.div>
+
           </div>
 
           {/* Mobile menu button */}
