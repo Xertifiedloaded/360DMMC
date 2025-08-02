@@ -1,7 +1,5 @@
-
 import Footer from "./Footer";
 import Navigation from "./Navigation";
-
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -9,12 +7,10 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen overflow-x-hidden scroll-smooth flex flex-col">
       <Navigation />
-      <main className="flex-grow">
-        {children}
-      </main>
-<Footer/>
+      <main className="flex-grow">{children}</main>
+      <Footer />
     </div>
   );
 };
