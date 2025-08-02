@@ -76,7 +76,7 @@ const Home = () => {
         >
           <motion.div variants={fadeInUp}>
             <motion.h1
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
+              className="text-3xl  md:text-6xl lg:text-7xl font-bold mb-6 leading-tight"
               variants={fadeInUp}
             >
               <span className="text-gradient">Unlock Your Business</span>
@@ -86,7 +86,7 @@ const Home = () => {
               <span className="text-gradient">AI Innovation</span>
             </motion.h1>
             <motion.p
-              className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 max-w-4xl mx-auto px-4"
+              className="text-sm md:text-xl text-muted-foreground mb-8 max-w-4xl mx-auto px-4"
               variants={fadeInUp}
             >
               Transform your organization with cutting-edge AI solutions that
@@ -100,7 +100,7 @@ const Home = () => {
               <Button
                 variant="default"
                 size="lg"
-                className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-4 md:py-6"
+                className="w-full sm:w-auto text-sm md:text-lg px-6 md:px-8 py-4 md:py-6"
                 asChild
               >
                 <Link to="/contact">
@@ -111,7 +111,7 @@ const Home = () => {
               <Button
                 variant="default"
                 size="lg"
-                className="w-full sm:w-auto text-base md:text-lg px-6 md:px-8 py-4 md:py-6"
+                className="w-full sm:w-auto text-sm md:text-lg px-6 md:px-8 py-4 md:py-6"
                 asChild
               >
                 <Link to="/services">Explore Services</Link>
