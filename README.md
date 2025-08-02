@@ -1,4 +1,8 @@
 # React + TypeScript + Vite
+shadcn import for all the components
+
+ npx shadcn@latest add accordion alert-dialog alert aspect-ratio avatar badge breadcrumb button calendar card carousel checkbox collapsible command context-menu dialog drawer dropdown-menu form hover-card input-otp input label menubar navigation-menu pagination popover progress radio-group resizable scroll-area select separator sheet sidebar skeleton slider sonner switch table tabs textarea  toggle-group toggle tooltip 
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -66,5 +70,5 @@ export default tseslint.config([
     },
   },
 ])
- npx shadcn@latest add accordion alert-dialog alert aspect-ratio avatar badge breadcrumb button calendar card carousel checkbox collapsible command context-menu dialog drawer dropdown-menu form hover-card input-otp input label menubar navigation-menu pagination popover progress radio-group resizable scroll-area select separator sheet sidebar skeleton slider sonner switch table tabs textarea  toggle-group toggle tooltip 
+
 ```
